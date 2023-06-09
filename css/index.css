@@ -1,0 +1,65 @@
+.charTable {border-collapse: collapse;border: 1px solid black;}
+.charTable tbody > tr > td {border: 1px solid black;}
+.statusNO { background-color: red !important; }
+.statusInP { background-color: orange !important; }
+.statusYES { background-color: green !important; }
+
+.charDiv { display:inline-block; vertical-align: top; }
+
+.colorDeathKnight { background-color: #484848; color: #c41e3b; }
+.colorDemonHunter { background-color: #484848; color: #a330c9; }
+.colorDruid { background-color: #484848; color: #ff7c0a; }
+.colorHunter { background-color: #484848; color: #aad372; }
+.colorMage { background-color: #484848; color: #68ccef; }
+.colorMonk { background-color: #484848; color: #008467; }
+.colorPaladin { background-color: #484848; color: #f48cba; }
+.colorPriest { background-color: #484848; color: #ffffff; }
+.colorRogue { background-color: #484848; color: #fff468; }
+.colorShaman { background-color: #484848; color: #2359ff; }
+.colorWarlock { background-color: #484848; color: #9382c9; }
+.colorWarrior { background-color: #484848; color: #c69b6d; }
+
+.statusInGame { background-color: #00ff00 !important; }
+.statusHomeUser { background-color: #f1c232 !important; }
+.statusReserve { background-color: #ff0000 !important; }
+
+.save_but { background-image: url( ../images/save_but.png ) !important; }
+.add_but { background-image: url( ../images/add_but.png ) !important; }
+.logout { background-image: url( ../images/logout.gif ) !important; }
+.cancel_but { background-image: url( ../images/cancel_but.png ) !important; }
+.accept { background-image: url( ../images/accept.png ) !important; }
+.edit_but { background-image: url( ../images/comment_edit.png ) !important; }
+.link_but { background-image: url( ../images/link_but.png ) !important; }
+
+.roleTank { background-color: #000000; color: #ffffff; }
+.roleHealer { background-color: #38761d; color: #ffffff; }
+.roleRDD { background-color: #cc0000; color: #ffffff; }
+.roleMDD { background-color: #1155cc; color: #ffffff; }
+
+.alt_roleTank { background-color: #b7b7b7; }
+.alt_roleHealer { background-color: #b6d7a8; }
+.alt_roleRDD { background-color: #ea9999; }
+.alt_roleMDD { background-color: #a4c2f4; }
+
+.lowILVL { background-color: #ff9900; }
+
+#loot_his_table {
+    font-size: 11px;
+    border-collapse: collapse;
+}
+#loot_his_table > tbody > tr > td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px;
+}
+
+.tableStat { border-collapse: collapse; font-size: 13px; }
+.tableStat > tbody > tr > td:first-child { font-weight: bold; }
+.tableStat > tbody > tr > td:last-child {
+    min-width: 30px;
+    text-align: center;
+    background-color: white;
+}
+.statDiv { display:inline-block; vertical-align: top; padding: 0px 0px 20px 20px; }
+.statDiv > span { font-size: 15px; font-weight: bold; }
